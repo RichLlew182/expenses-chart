@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <!-- Google Fonts  -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="index.css">
+  <title>Frontend Mentor | Expenses chart component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+</head>
+
+<body class="cream">
+  <section class="top">
+    <div id="expenses-chart">
+      <div class="expenses expenses-header soft-red white-text">
+        <div class="balance"> <span>My balance</span>
+          <span class="medium-font">$921.48</span></div>
+        <div class="logo"><img src="images\logo.svg" alt="Expenses Component Logo"></div>
+
+      </div>
+
+      <div class="expenses expenses-body pale-orange">
+
+        <div class="expenses-spending">
+          <span class="medium-font dark-brown-text">Spending - Last 7 days</span>
+          <div class="graphs row">
+            <div class="day">
+              <div class="bar-graph monday soft-red"></div><span>mon</span>
+            </div>
+            <div class="day">
+              <div class="bar-graph tuesday soft-red"></div><span>tue</span>
+            </div>
+            <div class="day">
+              <div class="bar-graph wednesday soft-red active"></div><span>wed</span>
+            </div>
+            <div class="day">
+              <div class="bar-graph thursday soft-red"></div><span>thu</span>
+            </div>
+            <div class="day">
+              <div class="bar-graph friday soft-red"></div><span>fri</span>
+            </div>
+            <div class="day">
+              <div class="bar-graph saturday soft-red"></div><span>sat</span>
+            </div>
+            <div class="day">
+              <div class="bar-graph sunday soft-red"></div><span>sun</span>
+            </div>
+          </div>
+        </div>
+        <div class="expenses-total">
+          <span>Total this month</span>
+          <span class="large-font dark-brown-text">$478.33</span>
+
+          +2.4%
+          from last month
+        </div>
+      </div>
+    </div>
+
+  </section>
+</body>
+
+</html>
